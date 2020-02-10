@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            width: 100%;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        nav {
+            width: 100%;
+        }
+
+        nav ul {
+            list-style: none;
+            overflow: hidden;
+        }
+
+        nav ul li {
+            float: left;
+            width: 20%;
+        }
+
+        nav ul li a {
+            text-align: center;
+            padding: 8px 0;
+            display: block;
+            width: 100%;
+            background: -moz-linear-gradient(top, #cdeb8e 0%, #b0ca34 100%);
+
+        }
+
+        nav ul li a {
+            color: #000;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover,
+        nav ul li a:active {
+            background: #96c40d;
+        }
+
+        nav ul li:first-child a {
+            border-top-left-radius: 8px;
+            border-bottom-left-radius: 8px;
+        }
+
+        nav ul li:last-child a {
+            border-top-right-radius: 8px;
+            border-bottom-right-radius: 8px;
+        }
+
+        img,
+        hd,
+        principles {
+            float: left;
+            padding-right: 15px;
+        }
+
+        #home:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        .twitter{
+            float: right;
+            height: 25;width: 25px;
+            justify-content: center;
+            align-content: center;
+        }
+        footer{
+            background: -webkit-linear-gradient(top, #614444, rgba(14, 107, 92, 0.8));
+            padding: 10px;
+            height: 25px;
+            text-align: center;
+            border-radius: 8px;
+        }
+        @media screen and (max-width:800px) {
+  img,hd ,principles, .right {
+    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li> <a class="active" href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#membership">Membership</a></li>
+                <li><a href="#mentors">Following</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="home">
+        <img src="images/coast.jpg" alt="image">
+        <header id="hd">Build By Principles</header>
+        <ul id="principles">
+            <li><a href="#try">Try</a></li>
+            <li><a href="#fail">Fail</a></li>
+            <li><a href="#learn">Learn</a></li>
+            <li><a href="#grow">Grow</a></li>
+        </ul>
+        
+    </div>
+    <div id="about">
+        <header>
+            My Background Summary Information
+        </header>
+        <dl>
+            <dt>Scholarly Life</dt>
+                <dd>
+                    <ul>
+                        <li>Bsc. Petroleum Engineering - Kenyatta University</li>
+                    </ul>
+                </dd>
+            
+            <dt>Political Life</dt>
+                <dd>
+                    <ul>
+                        <li>Congress Speaker - Kenyatta University</li>
+                        <li>Congress Student Leader - Kenyatta University</li>
+                        <li>Chairperson Taita taveta University Students Association- Kenyatta University</li>
+                    </ul>
+                </dd>
+
+            <dt>Software Development Life</dt>
+                <dd>
+                    <ul>
+                        <li>Android Development Learner</li>
+                        <li>Full Stack Web development Learner</li>
+                    </ul>
+                </dd>
+
+        </dl>
+
+    </div>
+    <div id="membership">
+        <header>My Membership</header>
+
+        <p>SPE - International</p>
+        
+        <p>Ji-KUZE Youth Group - Nairobi</p>
+    </div>
+    <div id="mentors">
+        <header>What I Follow</header>
+        <ul>
+            <li >Steve Jobs - Stay Hungry Stay Foolish Speech
+                
+                    <p><a href="https://www.youtube.com/watch?v=UF8uR6Z6KLc">Watch</a></p> 
+                
+            </li>
+            <li>Paul Kagame - President Rwandwa</li>
+            <li>Chris Kirubi - Kenyan Business Mongle</li>
+        </ul>
+    </div>
+    <footer>
+        <div id="contacts">
+            +254 702 774 191
+            <a href="https://web.facebook.com/mdygo.jake"><img class="twitter" src="images/fb.png" alt="fb"></a>
+            <a href="https://twitter.com/jacobmdigo"><img class="twitter" src="images/twitter.png" alt="twitter"></a>
+            <a href="https://www.instagram.com/mdigomlangwa/"><img class="twitter" src="images/insta.jpeg" alt="instagram"></a>
+            <a href="https://ke.linkedin.com/in/jacob-mdigo-57382b131"><img class="twitter" src="images/linkedin.png" alt="linkedin"></a>
+
+        </div>
+        Copyright © 2020 Mdigo Jm
+    </footer>
+</body>
+
+</html>
